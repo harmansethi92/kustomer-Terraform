@@ -18,7 +18,7 @@ instance. Please implement a highly available solution that you'd be confident w
 continue to run in the event one instance goes down.
 ````
 
-##Setup:
+## Setup:
 
 1. awscli installed
 
@@ -39,23 +39,9 @@ use command to create the bucket from terminal: aws s3api create-bucket --bucket
 ## Module structure
 
 ![module-structure](module-structure.png)  
-.
-├── README.md
-└── terraform
-    ├── config.tf
-    ├── main.tf
-    ├── modules
-    │   ├── multi-region
-    │   │   ├── main.tf
-    │   │   └── outputs.tf
-    │   └── us-east-1
-    │       ├── main.tf
-    │       └── outputs.tf
-    ├── outputs.tf
-    └── provider.tf
 
 
-###There are basically two modules which solves above exercises:
+### There are basically two modules which solves above exercises:
 
 #### For Exercise 1:
 
