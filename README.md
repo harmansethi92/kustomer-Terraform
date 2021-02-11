@@ -38,7 +38,7 @@ use command to create the bucket from terminal: aws s3api create-bucket --bucket
 
 ## Module structure
 
-![module-structure](module-structure.png)  
+![module-structure](module-structure.png)
 
 
 ### There are basically two modules which solves above exercises:
