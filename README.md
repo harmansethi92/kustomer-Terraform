@@ -52,6 +52,12 @@ terraform/modules/us-east-1/ : It consists extra resources like 4th AZ and copyi
 
 terraform/modules/multi-region/ : It consists of a High availibility load balancer which sends traffic to two identical instances in different availability zones
 
+#### Output
+
+Once the terraform plan has been applied, it's going to display the load balancer DNS name in each region
+
+
 #### Note
 
 The copy ami from eu-west-1 to us-east-1 takes around 4-5 minutes, so stack would take sometime to be built in Virginia
+
