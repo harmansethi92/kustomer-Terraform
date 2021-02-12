@@ -1,4 +1,4 @@
-# _provider.tf
+# provider.tf
 provider "aws" {
   region = "us-east-1"
 }
