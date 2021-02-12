@@ -1,4 +1,4 @@
-# Kustomer
+# Kustomer Challenge
 
 This repository consists the solution to the following three exercises:
 
