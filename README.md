@@ -54,7 +54,7 @@ terraform/modules/multi-region/ : It consists of a High availibility load balanc
 
 #### Output
 
-Once the terraform plan has been applied, it's going to display the load balancer DNS name in each region
+Once the terraform plan has been applied, it's going to display the load balancer DNS name in each region on the console
 
 
 #### Note
