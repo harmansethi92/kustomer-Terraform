@@ -20,12 +20,9 @@ continue to run in the event one instance goes down.
 
 ## Setup:
 
-1. awscli installed
+1. awscli installed, aws credentials setup and make sure you have enough permissions to create the stack
 
 2. terraform version v0.12.24
-
-3. Create a simple s3 bucket to store the terraform state. This would enable multiple developers to work on the codebase don't have different local state files.
-use command to create the bucket from terminal: aws s3api create-bucket --bucket kustomer-terraform-state --region us-east-1
 
 
 ### Provisioning
