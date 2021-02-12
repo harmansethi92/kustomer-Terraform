@@ -26,7 +26,7 @@ continue to run in the event one instance goes down.
 
 
 ### Provisioning
-- initialize s3 to maintain the state and initialize the modules
+- initialize backend to maintain state and the modules
   - `terrafrom init`
 - see planned changes
   - `terraform plan`
